@@ -1,0 +1,52 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .right {
+    text-align: start;
+    margin: auto;
+    padding: 1rem;
+    max-width: 550px;
+}
+
+.about .right p {
+    margin: 1.2rem 0;
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+
+.about .right h4 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.about .right .btn {
+    padding: 0.6rem 1rem;
+    border-radius: 3px;
+}
+
+.about .left {
+    max-width: 500px;
+}
+
+.left .img-container {
+    align-items: center;
+    text-align: center;
+}
+
+.img-container img {
+    max-width: 90%;
+}
+
+@media screen and (max-width: 640px) {
+    .about .right {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
