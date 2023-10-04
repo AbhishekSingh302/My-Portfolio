@@ -17,7 +17,7 @@ const WorkCard = () => {
                     <img src={pro6} alt='img-pro'/>
                     <h2 className='project-title'>Whatsapp Clone</h2>
                     <div className='pro-details'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p>Lorem ipsum dolor sit ametmy, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <div className='pro-btns'>
                             <NavLink to="https://whatsapp-clone-4be9c.web.app" className="btn" target='_blank'>Click Here</NavLink>
                         </div>
