@@ -6,6 +6,7 @@ import pro2 from "../images/twitter-clone.png"
 import pro3 from "../images/ecommerce.png";
 import pro4 from "../images/news.png";
 import pro5 from "../images/textutils.png";
+import pro6 from "../images/whatsapp-clone.png";
 
 const WorkCard = () => {
     return (
@@ -13,12 +14,12 @@ const WorkCard = () => {
             <h1 className='project-heading'>My Projects</h1>
             <div className='project-container'>
                 <div className='project-card'>
-                    <img src={pro1} alt='img-pro'/>
-                    <h2 className='project-title'>My Portfolio</h2>
+                    <img src={pro6} alt='img-pro'/>
+                    <h2 className='project-title'>Whatsapp Clone</h2>
                     <div className='pro-details'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <div className='pro-btns'>
-                            <NavLink to="https://my-portfolio-bb832.web.app" className="btn" target='_blank'>Click Here</NavLink>
+                            <NavLink to="https://whatsapp-clone-4be9c.web.app" className="btn" target='_blank'>Click Here</NavLink>
                         </div>
                     </div>
                 </div>
@@ -29,6 +30,16 @@ const WorkCard = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <div className='pro-btns'>
                             <NavLink to="https://twitter-clone-65aaa.web.app" className="btn" target='_blank'>Click Here</NavLink>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-card'>
+                    <img src={pro1} alt='img-pro'/>
+                    <h2 className='project-title'>My Portfolio</h2>
+                    <div className='pro-details'>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div className='pro-btns'>
+                            <NavLink to="https://my-portfolio-bb832.web.app" className="btn" target='_blank'>Click Here</NavLink>
                         </div>
                     </div>
                 </div>
@@ -48,7 +59,7 @@ const WorkCard = () => {
                     <div className='pro-details'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <div className='pro-btns'>
-                            <NavLink to="https://ecommerce-website-ab631.web.app" className="btn" target='_blank'>Click Here</NavLink>
+                            <NavLink to="https://news-app-e3a50.web.app" className="btn" target='_blank'>Click Here</NavLink>
                         </div>
                     </div>
                 </div>
