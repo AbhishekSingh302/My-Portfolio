@@ -1,5 +1,6 @@
 import React from 'react';
 import "./WorkCardStyles.css";
+import pro from '../images/homyz.png';
 import pro1 from "../images/portfolio-img.png"
 import { NavLink } from 'react-router-dom';
 import pro2 from "../images/twitter-clone.png"
@@ -13,6 +14,16 @@ const WorkCard = () => {
         <div className='work-container'>
             <h1 className='project-heading'>My Projects</h1>
             <div className='project-container'>
+                <div className='project-card'>
+                    <img src={pro} alt='img-pro'/>
+                    <h2 className='project-title'>Homyz</h2>
+                    <div className='pro-details'>
+                        <p>Lorem ipsum dolor sit ametmy, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div className='pro-btns'>
+                            <NavLink to="https://homyz-51237.web.app" className="btn" target='_blank'>Click Here</NavLink>
+                        </div>
+                    </div>
+                </div>
                 <div className='project-card'>
                     <img src={pro6} alt='img-pro'/>
                     <h2 className='project-title'>Whatsapp Clone</h2>
