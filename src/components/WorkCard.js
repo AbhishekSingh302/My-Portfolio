@@ -3,7 +3,7 @@ import "./WorkCardStyles.css";
 import pro from '../images/homyz.png';
 import pro1 from "../images/portfolio-img.png"
 import { NavLink } from 'react-router-dom';
-import pro2 from "../images/twitter-clone.png"
+import pro2 from "../images/gym.png"
 import pro3 from "../images/ecommerce.png";
 import pro4 from "../images/news.png";
 import pro5 from "../images/textutils.png";
@@ -36,11 +36,11 @@ const WorkCard = () => {
                 </div>
                 <div className='project-card'>
                     <img src={pro2} alt='img-pro'/>
-                    <h2 className='project-title'>Twitter Clone</h2>
+                    <h2 className='project-title'>Gym-website</h2>
                     <div className='pro-details'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <div className='pro-btns'>
-                            <NavLink to="https://twitter-clone-65aaa.web.app" className="btn" target='_blank'>Click Here</NavLink>
+                            <NavLink to="https://gym-website-9c130.web.app" className="btn" target='_blank'>Click Here</NavLink>
                         </div>
                     </div>
                 </div>
